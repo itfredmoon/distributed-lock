@@ -19,7 +19,7 @@ public class StockController {
     @GetMapping("/stock/deduct")
     public String deduct (){
         stockService.deduct();
-        System.out.println(count++);
+//        System.out.println(count++);
         return "hello stock deduct!!";
     }
 }
